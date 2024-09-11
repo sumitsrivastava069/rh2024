@@ -1,4 +1,4 @@
-FROM python:3.12-slim
+FROM registry.fedoraproject.org/f33/python3
 
 WORKDIR /app
 
