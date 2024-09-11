@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8:latest
+FROM registry.fedoraproject.org/f33/python3
 
 WORKDIR /code
 
