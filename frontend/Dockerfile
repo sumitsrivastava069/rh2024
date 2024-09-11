@@ -2,12 +2,14 @@ FROM registry.fedoraproject.org/f33/python3
 
 WORKDIR /app
 
-RUN apt-get update && apt-get install -y \
-    build-essential \
+RUN yum update -y && yum install -y \
+    gcc \
+    gcc-c++ \
     curl \
-    software-properties-common \
+    yum-utils \
     git \
-    && rm -rf /var/lib/apt/lists/*
+    && yum clean all
+
 
 EXPOSE 8501
 
