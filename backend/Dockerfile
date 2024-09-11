@@ -1,4 +1,4 @@
-FROM docker.io/python:3.10
+FROM registry.access.redhat.com/ubi8:latest
 
 WORKDIR /code
 
