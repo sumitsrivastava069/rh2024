@@ -1,4 +1,4 @@
-FROM registry.fedoraproject.org/f33/python3
+FROM docker.io/bitnami/python:3.10-debian-11
 
 WORKDIR /app
 
